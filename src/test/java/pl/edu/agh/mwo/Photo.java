@@ -4,9 +4,9 @@ import org.junit.Test;
 
 public class Photo {
 	@Test
-	public void photo(){
+	public void photoCount(){
 		Photo myFoto = new Photo();
-		myFoto.take();
+	myFoto.photoCount();
 		
 			
 		}
