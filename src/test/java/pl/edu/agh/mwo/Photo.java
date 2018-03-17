@@ -6,7 +6,7 @@ public class Photo {
 	@Test
 	public void photo(){
 		Photo myFoto = new Photo();
-		
+		myFoto.take();
 		
 			
 		}
