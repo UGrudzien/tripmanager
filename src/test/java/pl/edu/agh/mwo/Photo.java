@@ -1,5 +1,15 @@
 package pl.edu.agh.mwo;
 
-public class Photo {
+import org.junit.Test;
 
-}
+public class Photo {
+	@Test
+	public void photo(){
+		Photo myFoto = new Photo();
+		
+		
+			
+		}
+	}
+
+
