@@ -14,6 +14,6 @@ public class TripTest {
 		trip.addPhoto(photo);
 		assertEquals(1, trip.getPhotos().size());
 	}
-	
+
 
 }
