@@ -18,6 +18,16 @@ public class TripManager {
 		// TODO Auto-generated method stub
 		trips.remove(trip);
 	}
+	public Trip findTrip(String name) {
+		// TODO Auto-generated method stub
+		for (Trip trip: trips){
+			if (trip.getName()==name){
+				return trip;
+			}
+		}
+		return null;
+		
+	}
 
 
 }

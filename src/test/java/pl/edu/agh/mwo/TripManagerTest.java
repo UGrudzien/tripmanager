@@ -23,13 +23,16 @@ public class TripManagerTest {
 		assertEquals(0, tripmanager.getTrips().size());
 
 	}
-//	
+	
 	@Test
 	public void findTrip(){
 		TripManager tripmanager = new TripManager();
 		Trip trip = new Trip();
 		
-		
+		String name = "Egipt";
+		tripmanager.addTrip(trip);
+		trip.setName(name);
+		assertEquals(trip, tripmanager.findTrip(name));
 		
 	}
 }
