@@ -5,13 +5,17 @@ import static org.junit.Assert.*;
 
 
 public class Photo {
-	@Test
-	public void photoCount(){
-//		Photo myFoto = new Photo();
-//		myFoto.photoCount();
-		assertTrue(false);
-			
+	private String comment;
+	
+	public void addComment(String comment){
+	//	Photo myFoto = new Photo();
+	//	myFoto.photoCount();
+		//assertTrue(false);
+		this.comment=comment;
 		}
+	public String getComment(){
+		return comment;
+	}
 	}
 
 
