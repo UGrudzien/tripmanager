@@ -14,6 +14,10 @@ public class TripManager {
 	public void addTrip(Trip trip){
 		trips.add(trip);
 	}
+	public void removeTrip(Trip trip) {
+		// TODO Auto-generated method stub
+		trips.remove(trip);
+	}
 
 
 }
