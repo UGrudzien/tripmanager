@@ -24,15 +24,12 @@ public class TripManagerTest {
 
 	}
 //	
-//	@Test
-//	public void findTrip(){
-//		TripManager tripmanager = new TripManager();
-//		Trip trip = new Trip();
-//		assertEquals(0, tripmanager.getTrips().size());
-//		for (Trip listTrip:tripmanager.getTrips()){
-//			if (trip!=listTrip){
-//				throw new findTripExeption ("We are sorry but trip do not exist");
-//			}
-//		}
-//	}
+	@Test
+	public void findTrip(){
+		TripManager tripmanager = new TripManager();
+		Trip trip = new Trip();
+		
+		
+		
+	}
 }

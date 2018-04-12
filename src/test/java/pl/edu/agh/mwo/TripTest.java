@@ -14,6 +14,12 @@ public class TripTest {
 		trip.addPhoto(photo);
 		assertEquals(1, trip.getPhotos().size());
 	}
-
+	@Test
+	public void setName(){
+		Trip trip =new Trip();
+		String name="Egipt";
+		trip.setName(name);
+		assertEquals("Egipt", trip.getName());
+	}
 
 }
