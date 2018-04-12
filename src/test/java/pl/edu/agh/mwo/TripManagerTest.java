@@ -13,14 +13,16 @@ public class TripManagerTest {
 		tripmanager.addTrip(trip);
 		assertEquals(1, tripmanager.getTrips().size());
 	}
-//	@Test
-//	public void removeTrip(){
-//		TripManager tripmanager = new TripManager();
-//		Trip trip = new Trip();
-//		if (trip.removeTrip().size()<0){
-//			throw new ArithmeticException("The number of trips couldn't be less then 0");
-//		}
-//	}
+	@Test
+	public void removeTrip(){
+		TripManager tripmanager = new TripManager();
+		Trip trip = new Trip();
+		tripmanager.addTrip(trip);
+		assertEquals(1, tripmanager.getTrips().size());
+		tripmanager.removeTrip(trip);
+		assertEquals(0, tripmanager.getTrips().size());
+
+	}
 //	
 //	@Test
 //	public void findTrip(){
